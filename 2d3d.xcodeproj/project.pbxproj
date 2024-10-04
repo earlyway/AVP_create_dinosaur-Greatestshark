@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96884FCE2CAFD54200E22D80 /* SharkParkSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96884FCD2CAFD54200E22D80 /* SharkParkSpace.swift */; };
+		96E05EDB2C7326E200DCB443 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 96E05EDA2C7326E200DCB443 /* RealityKitContent */; };
+		96E05EDD2C7326E200DCB443 /* _d3dApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E05EDC2C7326E200DCB443 /* _d3dApp.swift */; };
+		96E05EDF2C7326E200DCB443 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E05EDE2C7326E200DCB443 /* ContentView.swift */; };
+		96E05EE12C7326E300DCB443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E05EE02C7326E300DCB443 /* Assets.xcassets */; };
+		96E05EE42C7326E300DCB443 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E05EE32C7326E300DCB443 /* Preview Assets.xcassets */; };
+		96E05EEF2C7326E300DCB443 /* _d3dTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E05EEE2C7326E300DCB443 /* _d3dTests.swift */; };
+		96E05EFA2C7466CF00DCB443 /* AssetLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E05EF92C7466CF00DCB443 /* AssetLoading.swift */; };
+		96E05EFC2C746CC400DCB443 /* DinosaurParkSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E05EFB2C746CC400DCB443 /* DinosaurParkSpace.swift */; };
+		96E05EFF2C7471E000DCB443 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 96E05EFE2C7471E000DCB443 /* RealityKitContent */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96E05EEB2C7326E300DCB443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96E05ECD2C7326E200DCB443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96E05ED42C7326E200DCB443;
+			remoteInfo = 2d3d;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96884FCD2CAFD54200E22D80 /* SharkParkSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharkParkSpace.swift; sourceTree = "<group>"; };
+		96E05ED52C7326E200DCB443 /* 2d3d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2d3d.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E05ED92C7326E200DCB443 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		96E05EDC2C7326E200DCB443 /* _d3dApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _d3dApp.swift; sourceTree = "<group>"; };
+		96E05EDE2C7326E200DCB443 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96E05EE02C7326E300DCB443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96E05EE32C7326E300DCB443 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96E05EE52C7326E300DCB443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E05EEA2C7326E300DCB443 /* 2d3dTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2d3dTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E05EEE2C7326E300DCB443 /* _d3dTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _d3dTests.swift; sourceTree = "<group>"; };
+		96E05EF92C7466CF00DCB443 /* AssetLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetLoading.swift; sourceTree = "<group>"; };
+		96E05EFB2C746CC400DCB443 /* DinosaurParkSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinosaurParkSpace.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96E05ED22C7326E200DCB443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E05EFF2C7471E000DCB443 /* RealityKitContent in Frameworks */,
+				96E05EDB2C7326E200DCB443 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E05EE72C7326E300DCB443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96E05ECC2C7326E200DCB443 = {
+			isa = PBXGroup;
+			children = (
+				96E05ED72C7326E200DCB443 /* 2d3d */,
+				96E05ED82C7326E200DCB443 /* Packages */,
+				96E05EED2C7326E300DCB443 /* 2d3dTests */,
+				96E05ED62C7326E200DCB443 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96E05ED62C7326E200DCB443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96E05ED52C7326E200DCB443 /* 2d3d.app */,
+				96E05EEA2C7326E300DCB443 /* 2d3dTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96E05ED72C7326E200DCB443 /* 2d3d */ = {
+			isa = PBXGroup;
+			children = (
+				96E05EF82C7466AF00DCB443 /* Model */,
+				96E05EDC2C7326E200DCB443 /* _d3dApp.swift */,
+				96E05EDE2C7326E200DCB443 /* ContentView.swift */,
+				96E05EFB2C746CC400DCB443 /* DinosaurParkSpace.swift */,
+				96884FCD2CAFD54200E22D80 /* SharkParkSpace.swift */,
+				96E05EE02C7326E300DCB443 /* Assets.xcassets */,
+				96E05EE52C7326E300DCB443 /* Info.plist */,
+				96E05EE22C7326E300DCB443 /* Preview Content */,
+			);
+			path = 2d3d;
+			sourceTree = "<group>";
+		};
+		96E05ED82C7326E200DCB443 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				96E05ED92C7326E200DCB443 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		96E05EE22C7326E300DCB443 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				96E05EE32C7326E300DCB443 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96E05EED2C7326E300DCB443 /* 2d3dTests */ = {
+			isa = PBXGroup;
+			children = (
+				96E05EEE2C7326E300DCB443 /* _d3dTests.swift */,
+			);
+			path = 2d3dTests;
+			sourceTree = "<group>";
+		};
+		96E05EF82C7466AF00DCB443 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96E05EF92C7466CF00DCB443 /* AssetLoading.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96E05ED42C7326E200DCB443 /* 2d3d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E05EF22C7326E300DCB443 /* Build configuration list for PBXNativeTarget "2d3d" */;
+			buildPhases = (
+				96E05ED12C7326E200DCB443 /* Sources */,
+				96E05ED22C7326E200DCB443 /* Frameworks */,
+				96E05ED32C7326E200DCB443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2d3d;
+			packageProductDependencies = (
+				96E05EDA2C7326E200DCB443 /* RealityKitContent */,
+				96E05EFE2C7471E000DCB443 /* RealityKitContent */,
+			);
+			productName = 2d3d;
+			productReference = 96E05ED52C7326E200DCB443 /* 2d3d.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96E05EE92C7326E300DCB443 /* 2d3dTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E05EF52C7326E300DCB443 /* Build configuration list for PBXNativeTarget "2d3dTests" */;
+			buildPhases = (
+				96E05EE62C7326E300DCB443 /* Sources */,
+				96E05EE72C7326E300DCB443 /* Frameworks */,
+				96E05EE82C7326E300DCB443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96E05EEC2C7326E300DCB443 /* PBXTargetDependency */,
+			);
+			name = 2d3dTests;
+			productName = 2d3dTests;
+			productReference = 96E05EEA2C7326E300DCB443 /* 2d3dTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96E05ECD2C7326E200DCB443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					96E05ED42C7326E200DCB443 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					96E05EE92C7326E300DCB443 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 96E05ED42C7326E200DCB443;
+					};
+				};
+			};
+			buildConfigurationList = 96E05ED02C7326E200DCB443 /* Build configuration list for PBXProject "2d3d" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96E05ECC2C7326E200DCB443;
+			packageReferences = (
+				96E05EFD2C7471E000DCB443 /* XCLocalSwiftPackageReference "Packages/RealityKitContent" */,
+			);
+			productRefGroup = 96E05ED62C7326E200DCB443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96E05ED42C7326E200DCB443 /* 2d3d */,
+				96E05EE92C7326E300DCB443 /* 2d3dTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96E05ED32C7326E200DCB443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E05EE42C7326E300DCB443 /* Preview Assets.xcassets in Resources */,
+				96E05EE12C7326E300DCB443 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E05EE82C7326E300DCB443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96E05ED12C7326E200DCB443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E05EDF2C7326E200DCB443 /* ContentView.swift in Sources */,
+				96E05EFC2C746CC400DCB443 /* DinosaurParkSpace.swift in Sources */,
+				96884FCE2CAFD54200E22D80 /* SharkParkSpace.swift in Sources */,
+				96E05EFA2C7466CF00DCB443 /* AssetLoading.swift in Sources */,
+				96E05EDD2C7326E200DCB443 /* _d3dApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E05EE62C7326E300DCB443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E05EEF2C7326E300DCB443 /* _d3dTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96E05EEC2C7326E300DCB443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96E05ED42C7326E200DCB443 /* 2d3d */;
+			targetProxy = 96E05EEB2C7326E300DCB443 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		96E05EF02C7326E300DCB443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		96E05EF12C7326E300DCB443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+		96E05EF32C7326E300DCB443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"2d3d/Preview Content\"";
+				DEVELOPMENT_TEAM = A29JP7W76C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "badredsoldier.-d3d";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		96E05EF42C7326E300DCB443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"2d3d/Preview Content\"";
+				DEVELOPMENT_TEAM = A29JP7W76C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "badredsoldier.-d3d";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		96E05EF62C7326E300DCB443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A29JP7W76C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "badredsoldier.-d3dTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2d3d.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2d3d";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		96E05EF72C7326E300DCB443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A29JP7W76C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "badredsoldier.-d3dTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2d3d.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2d3d";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96E05ED02C7326E200DCB443 /* Build configuration list for PBXProject "2d3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E05EF02C7326E300DCB443 /* Debug */,
+				96E05EF12C7326E300DCB443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E05EF22C7326E300DCB443 /* Build configuration list for PBXNativeTarget "2d3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E05EF32C7326E300DCB443 /* Debug */,
+				96E05EF42C7326E300DCB443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E05EF52C7326E300DCB443 /* Build configuration list for PBXNativeTarget "2d3dTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E05EF62C7326E300DCB443 /* Debug */,
+				96E05EF72C7326E300DCB443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		96E05EFD2C7471E000DCB443 /* XCLocalSwiftPackageReference "Packages/RealityKitContent" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/RealityKitContent;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		96E05EDA2C7326E200DCB443 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		96E05EFE2C7471E000DCB443 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 96E05ECD2C7326E200DCB443 /* Project object */;
+}
