@@ -19,6 +19,9 @@ struct _d3dApp: App {
         ImmersiveSpace(id: "dinosaurPark"){ // immersive space 를 간단히 dinosaurPark 라고 부르자.
             DinosaurParkSpace() // 몰입형 공간에 해당 ContentView.swift를 추가.
         }
+        ImmersiveSpace(id: "GSharkPark"){
+            SharkParkSpace()
+        }
     }
 }
 
