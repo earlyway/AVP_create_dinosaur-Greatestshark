@@ -41,9 +41,4 @@ struct DinosaurParkSpace: View {
     }
 }
 
-#Preview(windowStyle : .automatic) {
-    DinosaurParkSpace()
-}
-
-
 #endif

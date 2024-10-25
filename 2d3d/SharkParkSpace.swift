@@ -39,10 +39,5 @@ struct SharkParkSpace: View {
     }
 }
 
-
-#Preview {
-    SharkParkSpace()
-}
-
 #endif
 
